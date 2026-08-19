@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>boogsh website ★ </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="sparkles"></div>
+
+<div class="top-ribbon">
+  ★ NEW DROP ALERT! ★ &nbsp;&nbsp; BOOGSH WEBSITE &nbsp;&nbsp; ✦ &nbsp;&nbsp; BARDAGULAN, ALWAYS &nbsp;&nbsp; ✦
+  <span id="clock">00:00:00</span>
+</div>
+
+<header class="header">
+  <div class="logo">
+    <div class="logo-main">boogsh</div>
+    <div class="logo-sub">★ WEBSITE ★</div>
+  </div>
+  <nav>
+    <a href="#home">⌂<small>home</small></a>
+    <a href="#posts">★<small>blog</small></a>
+    <a href="#gallery">♡<small>photos</small></a>
+    <a href="#crew">✿<small>crew</small></a>
+    <a href="#guestbook">✉<small>messages</small></a>
+  </nav>
+  <div class="search">
+    <input id="search" placeholder="search the site...">
+    <button id="searchBtn">⌕</button>
+  </div>
+</header>
+
+<main id="home" class="desktop-layout">
+  <aside class="left-column">
+    <section class="window">
+      <div class="titlebar">quick links <span>— □ ×</span></div>
+      <div class="window-content link-list">
+        <button data-scroll="#gallery">☆ meet the member</button>
+        <button data-scroll="#posts">☆ latest chika</button>
+        <button data-scroll="#crew">☆ meet the gurangs</button>
+        <button data-scroll="#guestbook">☆ message board</button>
+        <button id="surprise">☆ surprise sticker</button>
+      </div>
+    </section>
+
+    <section class="window">
+      <div class="titlebar pink">welcome.txt <span>— □ ×</span></div>
+      <div class="window-content note-card">
+        <div class="tiny-screen">♥</div>
+        <b>hello mga beh!</b>
+        <p>boogsh is a shared website made by a whole bunch of friends. everyone gets a corner.</p>
+        <button class="glossy pink-btn" data-open="messageModal">sign our board ♥</button>
+      </div>
+    </section>
+
+    <section class="window">
+      <div class="titlebar blue">blog corner <span>— □ ×</span></div>
+      <div class="window-content tiny-copy">
+        <b>★ this week's chaos</b>
+        <p>• nakapag-add ng mga bastos na member</p><p>• nagmeetup na naman</p><p>• inaayos ang fucking website</p><p>• penge pera</p>
+        <a href="#posts">read more →</a>
+      </div>
+    </section>
+  </aside>
+
+  <section class="center-column">
+    <section class="window hero-window">
+      <div class="titlebar">boogsh_home.html <span>— □ ×</span></div>
+      <div class="hero">
+        <div class="hero-copy">
+          <div class="hero-title">made 4<br>the bardagulan</div>
+          <p>A group blog for every member of boogsh, fashion, music, photos, nostalgia and all the weird little things we love.</p>
+          <div class="hero-buttons">
+            <a class="glossy" href="#posts">explore us →</a>
+            <button class="glossy blue-btn" data-open="messageModal">send a message</button>
+          </div>
+          <div class="mini-links"><a href="#gallery">new in</a><a href="#posts">trending</a><a href="#crew">meet us</a></div>
+        </div>
+        <div class="hero-photo">
+          <img src="images/hero-photo.jpg" alt="" onerror="this.style.display='none'">
+          <div class="photo-fallback">PHOTO<br>01</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="service-strip">
+      <div>💿 <b>LAHAT BADING</b><small>WALANG TAPON</small></div>
+      <div>♥ <b>GRABE FACECARDS</b><small>LAHAT MASISIKIP</small></div>
+      <div>★ <b>BALAGBAG</b><small>SINCE DAY 01</small></div>
+    </div>
+
+    <section id="posts" class="post-grid">
+      <article class="window post">
+        <div class="titlebar blue">event // 001</div>
+        <div class="window-content">
+          <div class="post-photo"><img src="images/main-01.jpg" onerror="this.style.display='none'"><span>PHOTO 02</span></div>
+          <small>posted by boogsh crew ★ today</small>
+          <h2>first meetup with mga di kilala</h2>
+          <p>celebration ng mga october babies, we had a couple of drinks, snacks, and such. nakipag debate sa religious person.</p>
+          <button class="readmore" data-toast="weh chismosa! ♥">read more →</button>
+        </div>
+      </article>
+      <article class="window post">
+        <div class="titlebar pink">event // 002</div>
+        <div class="window-content">
+          <div class="post-photo"><img src="images/main-02.jpg" onerror="this.style.display='none'"><span>PHOTO 03</span></div>
+          <small>posted by the group ★ today</small>
+          <h2>inuman sa clubhouse nila cy</h2>
+          <p>ang chaotic, ayaw magpalamang ng mga tao riyan. nawala yung aso ni cypress tapos nahanap ng kapitbahay na batak.</p>
+          <button class="readmore" data-toast="wala na teh, dina ma-aadjust yung pic! ✦">read more →</button>
+        </div>
+      </article>
+       <article class="window post">
+        <div class="titlebar pink">event // 003</div>
+        <div class="window-content">
+          <div class="post-photo"><img src="images/main-03.jpg" onerror="this.style.display='none'"><span>PHOTO 03</span></div>
+          <small>posted by the group ★ today</small>
+          <h2>rides sa riverbanks</h2>
+          <p>nagrides kami ng vikings sa riverbanks tapos ang usapan no reaction challenge, ang galing wala nga silang reaksyon parang mga patay, pero yung isa talaga hihimatyin na. uminom din kami nito sa seaside habang nagkakabit ng fakenails yung isa</p>
+          <button class="readmore" data-toast="wala na teh, dina ma-aadjust yung pic! ✦">read more →</button>
+        </div>
+      </article>
+      <article class="window post">
+        <div class="titlebar blue">event // 004</div>
+        <div class="window-content">
+          <div class="post-photo"><img src="images/main-04.jpg" onerror="this.style.display='none'"><span>PHOTO 02</span></div>
+          <small>posted by boogsh crew ★ today</small>
+          <h2>nature trip</h2>
+          <p>nag-nature trip kami ito sa marilaque, sa may falls. ending paa lang namin yung nilubog kasi anong oras na, muntik pang di makauwi kasi nasiraan kami sasakyan. naayos naman and habang nasa byahe kami, umiinom kami,tapos paguwi sa hawz inom ulit, lala.</p>
+          <button class="readmore" data-toast="weh chismosa! ♥">read more →</button>
+        </div>
+      </article>
+    </section>
+
+    <section id="gallery" class="window">
+      <div class="titlebar blue">★ messy photo gallery <span>— □ ×</span></div>
+      <div class="window-content">
+        <p class="gallery-note">meet the crew! contact us to add your own pictures.</p>
+        <div id="galleryGrid" class="gallery-grid"></div>
+      </div>
+    </section>
+
+    <section class="lower-grid">
+      <section id="crew" class="window">
+        <div class="titlebar">meet the boogsh crew</div>
+        <div class="window-content">
+          <div class="crew-row"><div class="avatar">01</div><div><b>member 01 ★</b><p>fashion / playlists / random thoughts</p></div></div>
+          <div class="crew-row"><div class="avatar pink-avatar">02</div><div><b>member 02 ★</b><p>photos / food / chaotic recommendations</p></div></div>
+          <div class="crew-row"><div class="avatar blue-avatar">03</div><div><b>member 03 ★</b><p>music / games / internet archaeology</p></div></div>
+          <div class="crew-row"><div class="avatar">04</div><div><b>member 04 ★</b><p>art / beauty / tiny treasures</p></div></div>
+        </div>
+      </section>
+
+      <section class="window">
+        <div class="titlebar pink">now_playing.exe</div>
+        <div class="window-content player">
+          <div class="cd-disc">♫</div>
+          <b id="songName">boogsh mix // sugar rush</b>
+          <div><button id="prev">|◀</button><button id="play">▶</button><button id="next">▶|</button></div>
+          <div id="playlist" class="playlist">
+            <button>01 &nbsp; sugar rush</button><button>02 &nbsp; pink pixels</button><button>03 &nbsp; dial-up love</button><button>04 &nbsp; glitter floor</button><button>05 &nbsp; after school</button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div class="welcome-banner">
+      <div>★ ✦ ★</div>
+      <div><h2>WELCOME TO THE BOOGSH WEBSITE</h2><p>walang tapon, lahat balagbag</p><button class="glossy" data-scroll="#gallery">scroll the chaos ↓</button></div>
+      <div class="hello-kitty">♡</div>
+    </div>
+
+    <section id="guestbook" class="window guestbook">
+      <div class="titlebar blue">♥ boogsh message board // guestbook</div>
+      <div class="window-content">
+        <div class="guestbook-top">
+          <div class="message-preview">
+            <div class="mini-title">new message! ×</div>
+            <p>♥ you have <b id="messageCount">0</b> new message(s)</p>
+            <button class="glossy pink-btn" data-open="messageModal">OK!</button>
+          </div>
+          <div>
+            <h2>leave something for the group</h2>
+            <p>Write something unhinged, recommendation, confession or random thought.</p>
+            <button class="glossy blue-btn" data-open="messageModal">open message box ✉</button>
+          </div>
+        </div>
+        <div id="messages" class="messages"></div>
+      </div>
+    </section>
+  </section>
+
+  <aside class="right-column">
+    <section class="window">
+      <div class="titlebar pink">community vibes</div>
+      <div class="window-content center">
+        <div class="tiny-polaroids">
+          <div>PHOTO<br>04</div><div>PHOTO<br>05</div>
+        </div>
+        <b>lets feature ur picture</b><p>here!</p>
+        <button class="glossy blue-btn" data-toast="tagged! ✦">upload pics</button>
+      </div>
+    </section>
+
+    <section class="window">
+      <div class="titlebar">don't forget</div>
+      <div class="window-content tiny-copy">♡ drink water<br>★ magchat sa gc<br>✦ magsend ng bold<br>♥ leave a random message here!</div>
+    </section>
+
+    <section class="window">
+      <div class="titlebar blue">my faves</div>
+      <div class="window-content link-list">
+        <button data-toast="saved items opened!">💗 saved items (12)</button>
+        <button data-toast="wishlist opened!">☆ wish list (8)</button>
+        <button data-scroll="#gallery">📷 recent photos (15)</button>
+      </div>
+    </section>
+  </aside>
+</main>
+
+<!-- Desktop-style draggable message windows -->
+<div id="desktopWindows">
+  <div class="draggable-window pop-message" data-drag>
+    <div class="pop-title">new message! <button class="pop-close">×</button></div>
+    <div class="pop-body">♥ you have a new boogsh message<br><button class="tiny-button" data-open="messageModal">open</button></div>
+  </div>
+  <div class="draggable-window pop-player" data-drag>
+    <div class="pop-title blue-pop">now playing.mp3 <button class="pop-close">×</button></div>
+    <div class="pop-body">♫ <b>pink pixels</b><br><span>◀ ◉ ▶ ━━━━━</span></div>
+  </div>
+  <div class="draggable-window pop-alert" data-drag>
+    <div class="pop-title">boogsh.exe <button class="pop-close">×</button></div>
+    <div class="pop-body">☆ welcome, mga panget!<br><button class="tiny-button" data-toast="you clicked the old-school alert ★">OK</button></div>
+  </div>
+</div>
+
+<!-- The draggable message modal -->
+<div id="messageModal" class="modal-backdrop">
+  <div class="modal-window draggable-window">
+    <div class="pop-title pink-pop" data-drag-handle>message.txt <button class="pop-close">×</button></div>
+    <div class="pop-body form-body">
+      <h2>send the boogsh crew a message ♥</h2>
+      <label>nickname<input id="guestName" maxlength="24" placeholder="internet bestie"></label>
+      <label>message<textarea id="guestMessage" maxlength="220" placeholder="type something cute, funny, chaotic..."></textarea></label>
+      <button id="sendMessage" class="glossy pink-btn">send it!</button>
+      <button class="glossy blue-btn pop-close">cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- Realistic sticker layer: these use cropped objects from your uploaded reference image. -->
+<div id="stickerLayer"></div>
+
+<footer>
+  <div class="footer-ribbon">★ FREE GOOD VIBES ★ &nbsp; NEW DROP EVERY FRIDAY &nbsp; ★ EXPRESS YOURSELF ★</div>
+  <div class="footer-main"><b>boogsh website</b><span>© 2000–2026 boogsh crew</span><span>home · blog · photos · crew · messages</span></div>
+</footer>
+
+<div id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
